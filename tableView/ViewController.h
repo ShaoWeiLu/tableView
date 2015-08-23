@@ -7,8 +7,11 @@
 //
 
 #import <UIKit/UIKit.h>
+#import "testTableViewCell.h"
+@interface ViewController : UIViewController<UITableViewDataSource,UITableViewDelegate>{
 
-@interface ViewController : UIViewController
+    __weak IBOutlet UITableView *testTableView;
+}
 
 
 @end

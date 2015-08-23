@@ -14,6 +14,8 @@
 		E42A0D391B897F0C00D95773 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E42A0D381B897F0C00D95773 /* Images.xcassets */; };
 		E42A0D3C1B897F0C00D95773 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = E42A0D3A1B897F0C00D95773 /* LaunchScreen.xib */; };
 		E42A0D481B897F0C00D95773 /* tableViewTests.m in Sources */ = {isa = PBXBuildFile; fileRef = E42A0D471B897F0C00D95773 /* tableViewTests.m */; };
+		E42A0D541B89809B00D95773 /* testTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = E42A0D521B89809B00D95773 /* testTableViewCell.m */; };
+		E42A0D551B89809B00D95773 /* testTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = E42A0D531B89809B00D95773 /* testTableViewCell.xib */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -40,6 +42,9 @@
 		E42A0D411B897F0C00D95773 /* tableViewTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = tableViewTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		E42A0D461B897F0C00D95773 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		E42A0D471B897F0C00D95773 /* tableViewTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = tableViewTests.m; sourceTree = "<group>"; };
+		E42A0D511B89809B00D95773 /* testTableViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = testTableViewCell.h; sourceTree = "<group>"; };
+		E42A0D521B89809B00D95773 /* testTableViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = testTableViewCell.m; sourceTree = "<group>"; };
+		E42A0D531B89809B00D95773 /* testTableViewCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = testTableViewCell.xib; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -89,6 +94,9 @@
 				E42A0D381B897F0C00D95773 /* Images.xcassets */,
 				E42A0D3A1B897F0C00D95773 /* LaunchScreen.xib */,
 				E42A0D2B1B897F0C00D95773 /* Supporting Files */,
+				E42A0D511B89809B00D95773 /* testTableViewCell.h */,
+				E42A0D521B89809B00D95773 /* testTableViewCell.m */,
+				E42A0D531B89809B00D95773 /* testTableViewCell.xib */,
 			);
 			path = tableView;
 			sourceTree = "<group>";
@@ -200,6 +208,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				E42A0D371B897F0C00D95773 /* Main.storyboard in Resources */,
+				E42A0D551B89809B00D95773 /* testTableViewCell.xib in Resources */,
 				E42A0D3C1B897F0C00D95773 /* LaunchScreen.xib in Resources */,
 				E42A0D391B897F0C00D95773 /* Images.xcassets in Resources */,
 			);
@@ -220,6 +229,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				E42A0D341B897F0C00D95773 /* ViewController.m in Sources */,
+				E42A0D541B89809B00D95773 /* testTableViewCell.m in Sources */,
 				E42A0D311B897F0C00D95773 /* AppDelegate.m in Sources */,
 				E42A0D2E1B897F0C00D95773 /* main.m in Sources */,
 			);
